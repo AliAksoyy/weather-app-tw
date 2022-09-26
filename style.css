@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./img/bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.input-div input{
+    outline: none;
+    border-bottom: 2px solid red !important;
+    font-size: 1.5rem;
+    border-radius:10px;
+    opacity: 0.5;
+}
+
+.input-div input::placeholder {
+     color: gray; 
+}
+ 
+.rounded-pill{
+    font-size: .7rem; 
+}
+
+.text-muted{
+    text-transform: uppercase;
+}
+
+.container-fluid{
+    background:rgba(0,0,0,0.4);
+    height: 100vh;
+}
+
+.container-fluid h1{
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.9) ;
+}
+
+.card{
+    opacity: 0.7;
+    max-height: 225px;
+}
+
+.card-body h5{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.9);
+}
+
+.card-title span{
+    position: relative;
+    top:-7px;
+    right:-5px;
+    border-radius: 30%;
+    font-size: 0.7rem !important;
+}
+
+
