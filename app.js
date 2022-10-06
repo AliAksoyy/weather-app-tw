@@ -55,7 +55,7 @@ const renderWeather = function(data){
         warningText.textContent = `You already know the weather condition for ${name}. Pls search for another city`;
         setTimeout(()=>{
             warningText.textContent="";
-        },1500)
+        },2500)
     }   
     
 }
